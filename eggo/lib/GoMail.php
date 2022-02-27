@@ -22,7 +22,7 @@ class GoMail
     'Title' => '(系统自动邮件,请勿回复1)',
     'Content' => sprintf('您的验证码是：%s如非本人操作无需理会', 'xxx')
     );
-    $flag = GoMail::getInstance()::send($args);
+    $flag = GoMail::init()::send($args);
     */
     /**
      * @var array
